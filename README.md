@@ -18,9 +18,9 @@ An intuitive and feature-rich **Blog Search Web Page** designed for modern users
 
 ## 📂 Project Structure  
 
-├── index.html # Main HTML file
-├── styles.css # CSS for design and layout
-├── script.js # JavaScript for interactivity
+* ├── index.html # Main HTML file
+* ├── styles.css # CSS for design and layout
+* ├── script.js # JavaScript for interactivity
 
 
 ## 🛠️ Tech Stack  
@@ -54,4 +54,4 @@ An intuitive and feature-rich **Blog Search Web Page** designed for modern users
 
 
 Feel free to customize the content or structure to match your personal style and repository specifics!
-** Crafted with ❤️ by Decoder Sami.**
+## Crafted with ❤️ by Decoder Sami. ##
