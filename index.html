@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Blog Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Enhanced Blog Search</h1>
+        <nav>
+            <a href="https://decodersami.github.io/Portfolio/" target="_blank" class="portfolio-link">Visit My Portfolio</a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section class="search-container">
+            <input type="text" id="search-box" placeholder="Search blogs..." aria-label="Search Box">
+            <button id="search-btn" aria-label="Search Button">Search</button>
+        </section>
+        <section class="filters">
+            <label for="category-filter">Category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="tech">Technology</option>
+                <option value="health">Health</option>
+                <option value="education">Education</option>
+            </select>
+            <label for="sort-filter">Sort By:</label>
+            <select id="sort-filter">
+                <option value="relevance">Relevance</option>
+                <option value="recent">Most Recent</option>
+                <option value="popular">Most Popular</option>
+            </select>
+        </section>
+        <section class="results" id="results">
+            <!-- Search results will appear here -->
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Blog Search | <a href="https://decodersami.github.io/Portfolio/" target="_blank">Portfolio</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
